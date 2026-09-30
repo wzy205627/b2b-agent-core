@@ -1,0 +1,46 @@
+# Environment & Secrets (严禁提交敏感 Key)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info/
+.venv/
+env/
+venv/
+ENV/
+
+# Node & Frontend
+node_modules/
+agent-inbox/node_modules/
+agent-inbox/dist/
+agent-inbox/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & Temporary files
+*.log
+scratch/*.log
+logs/
+.tempmediaStorage/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large Data & Binary files (可选，保留核心代码)
+*.xlsx
+*.docx
